@@ -15,6 +15,7 @@ export const todos = sqliteTable("todos", {
 	id: text("id").primaryKey().notNull(),
 	description: text("description"),
 	list_id: text("list_id"),
+	// SQLite does not have a boolean type, so we use an integer with a value of 0 or 1
 	completed: integer("completed", { mode: "boolean" }),
 });
   

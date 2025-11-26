@@ -47,6 +47,7 @@ console.log("All todos:", allTodos);
 const incompleteTodos = await db
   .select()
   .from(todos)
+  // Handle boolean value in query using Drizzle ORM
   .where(eq(todos.completed, false));
 console.log("Incomplete todos:", incompleteTodos);
 
