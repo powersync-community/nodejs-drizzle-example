@@ -4,7 +4,7 @@ This is a minimal demo repository that shows how to use the [PowerSync](https://
 
 For more information about the PowerSync Node.js SDK see [this page](https://docs.powersync.com/client-sdk-references/node) from the official PowerSync docs.
 
-If you want to learn more about the PowerSync Drizzle ORM, see [this page](https://docs.powersync.com/client-sdk-references/javascript-web/javascript-orm/drizzle) for more details.
+If you want to learn more about the PowerSync integration with Drizzle ORM, see [this page](https://docs.powersync.com/client-sdk-references/javascript-web/javascript-orm/drizzle).
 
 ## Prerequisites 
 
@@ -16,6 +16,6 @@ If you want to learn more about the PowerSync Drizzle ORM, see [this page](https
 ## Setup
 
 1. Clone the repository
-2. Install dependencies `npm install`
+2. Install dependencies: `npm install`
 3. Create a `.env` file `cp .env.template .env` and set the two required environment variables
-4. Run the app `npm run start`
+4. Run the app: `npm run start`
