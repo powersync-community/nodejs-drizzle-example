@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-drizzle-example",
+  "version": "0.0.1",
+  "license": "CC0-1.0",
+  "type": "module",
+  "description": "This is a basic sample repository that shows how to use the PowerSync Node.js SDK along with Drizzle.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/powersync-community/nodejs-drizzle-example.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/powersync-community/nodejs-drizzle-example/issues"
+  },
+  "homepage": "https://github.com/powersync-community/nodejs-drizzle-example#readme",
+  "dependencies": {
+    "@powersync/drizzle-driver": "^0.7.0",
+    "@powersync/node": "^0.14.3",
+    "better-sqlite3": "^12.4.6",
+    "dotenv": "^17.2.3"
+  }
+}
